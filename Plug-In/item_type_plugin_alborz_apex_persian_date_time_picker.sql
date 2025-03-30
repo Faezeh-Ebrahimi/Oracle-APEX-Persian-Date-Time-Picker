@@ -51,7 +51,7 @@ wwv_flow_imp_shared.create_plugin(
 ,p_plugin_type=>'ITEM TYPE'
 ,p_name=>'ALBORZ_APEX.PERSIAN_DATE_TIME_PICKER'
 ,p_display_name=>'Persian Date Time Picker'
-,p_supported_component_types=>'APEX_APPLICATION_PAGE_ITEMS'
+,p_supported_component_types=>'APEX_APPLICATION_PAGE_ITEMS:APEX_APPL_PAGE_IG_COLUMNS'
 ,p_javascript_file_urls=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '#PLUGIN_FILES#js/persian-date.js',
 '#PLUGIN_FILES#js/persian-datepicker.js',
